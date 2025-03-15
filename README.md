@@ -1,4 +1,4 @@
-# Raytracing-Python
+# RayTracingFromScratch-Py
 The codes were rewritten and modified from https://raytracing.github.io/books/RayTracingInOneWeekend.html.
 
 **Prerequisites :**
