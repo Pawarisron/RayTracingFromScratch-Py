@@ -46,7 +46,7 @@ def renderQuad():
     main_camera.aspect_ratio = 1.0
     main_camera.img_width = 400
     main_camera.center = rtu.Vec3(0,0,0)
-    main_camera.samples_per_pixel = 5
+    main_camera.samples_per_pixel = 20
     main_camera.max_depth = 3
     main_camera.vertical_fov = 90
     main_camera.look_from = rtu.Vec3(0, 0, 10)
@@ -79,7 +79,7 @@ def renderQuad():
     
 
 if __name__ == "__main__":
-    #renderSphere()
+    # renderSphere()
     renderQuad()
 
 

@@ -21,8 +21,6 @@ def render():
     renderer = rtren.Renderer(main_camera)
     renderer.render()
     renderer.write_img2png("week03-4.png")
-    
-    
 
 
 if __name__ == "__main__":
